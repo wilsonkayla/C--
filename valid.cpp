@@ -16,7 +16,7 @@ int main (){
     cout << "Please enter an integer: "; 
     int num;
     cin >> num;
-    while (num > 0 || num < 100){
+    while (num <= 0 || num >= 100){
     cout << "Please re-enter: ";
     cin >> num;
     }
