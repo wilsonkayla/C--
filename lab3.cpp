@@ -14,6 +14,9 @@
     }
     fin.ignore(INT_MAX, '\n'); 
 
+    string junk;        // new string variable
+    getline(fin, junk);
+
     string junk, date, eastSt, eastE1, westSt,westE1; 
 
     while(fin >> date >> eastSt >> eastE1 >> westSt >> westE1){
